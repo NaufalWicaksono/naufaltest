@@ -1,0 +1,227 @@
+/* Reset dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Warna latar belakang hitam doff */
+    color: white; /* Warna teks putih */
+}
+
+/* Navigasi Header */
+.nav-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid #007bff; /* Garis bawah biru */
+    border-radius: 5px;
+}
+
+/* Link navigasi */
+.nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-container a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white; /* Warna teks putih */
+}
+.header-container {
+    margin-left: auto;
+    gap: 10px;
+}
+
+
+/* Judul Header */
+.header-container h1 {
+    margin: 0;
+    font-size: 20px;
+    background-color: #007bff; /* Latar belakang biru */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px; /* Membuat sudut tombol bulat */
+    display: inline-block;
+}
+
+/* Bagian Selamat Datang */
+.welcome-section {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin: 200px 50px;
+    gap: 40px; /* Menambah jarak antara teks dan gambar */
+}
+
+/* Kontainer untuk teks dan gambar */
+.welcome-content {
+    display: flex;
+    align-items: left;
+    gap: 40px;
+}
+
+/* Teks di bagian selamat datang */
+.text-content {
+    max-width: 400px;
+    text-align: left; /* Membuat teks rata kiri */
+}
+
+/* Gambar profil di bagian selamat datang */
+.profile-image {
+    width: 200px; /* Memperbesar gambar */
+    height: 200px;
+    background-color: #121212; /* Sama dengan warna background agar bingkai tidak terlihat */
+    border-radius: 0; /* Membuat ujung bingkai menjadi lancip */
+}
+
+/* Tombol More About Me */
+.more-about-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Bagian About Me */
+.about-section {
+    padding: 100px 50px;
+    background-color: #1c1c1c; /* Warna hitam doff */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Kontainer untuk teks dan gambar di About Me */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+/* Gambar profil di bagian About Me */
+.profile-image-left {
+    width: 200px; /* Memperbesar gambar */
+    height: 200px;
+    background-color: #1c1c1c; /* Sama dengan warna background agar bingkai tidak terlihat */
+    border-radius: 70px; /* Membuat ujung bingkai menjadi lancip */
+}
+
+/* Teks di bagian About Me */
+.about-text {
+    max-width: 600px;
+    text-align: justify; /* Membuat teks rata kanan dan kiri */
+}
+
+/* Bagian Prestasi */
+.prestasi-section {
+    padding: 100px 50px;
+    background-color: #000000; /* Warna latar belakang hitam doff */
+    text-align: center;
+}
+
+/* Kontainer untuk kotak prestasi */
+.prestasi-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Menambahkan jarak antar kotak */
+}
+
+/* Kotak prestasi */
+.prestasi-box {
+    width: 350px;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20; /* Membuat ujung gambar lancip */
+    font-size: 18px;
+    gap: 100px; /* Memberikan sedikit space antar gambar */
+}
+
+/* Teks di bawah kotak prestasi */
+.prestasi-section p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Bagian Pendidikan */
+.pendidikan-section {
+    padding: 100px 50px;
+    background-color: #1c1c1c; /* Warna hitam doff */
+    text-align: center;
+}
+
+/* Kontainer untuk daftar pendidikan */
+.pendidikan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Menambahkan jarak antar elemen */
+}
+
+/* Elemen pendidikan */
+.pendidikan-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Ikon pendidikan */
+.pendidikan-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Bagian Contact */
+.contact-section {
+    padding: 100px 50px;
+    background-color: #121212;
+    text-align: center;
+}
+
+/* Kontainer untuk daftar kontak */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Menambahkan jarak antar elemen */
+}
+
+/* Elemen kontak */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Ikon kontak */
+.contact-icon {
+    width: 30px;
+    height: 30px;
+}
